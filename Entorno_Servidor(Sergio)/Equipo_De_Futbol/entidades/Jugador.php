@@ -1,13 +1,15 @@
-<?
+<?php
 
-class Jugador
-{
+class Jugador {
+
     public $dorsal;
     public $nombre;
 
-    function __construct($dorsal = 0, $nombre = 'Pepe')
-    {
+    public function __construct($dorsal, $nombre) {
         $this->dorsal = $dorsal;
         $this->nombre = $nombre;
     }
+
 }
+
+?>

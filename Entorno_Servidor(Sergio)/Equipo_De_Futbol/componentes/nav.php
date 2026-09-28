@@ -1,4 +1,4 @@
 <nav>
-    <a href="index.php">Inicio</a>
-    <a href="nuevo.php">Nuevo</a>
+    <a href="/Entorno_Servidor(Sergio)/Equipo_De_Futbol/index.php">Inicio</a>
+    <a href="/Entorno_Servidor(Sergio)/Equipo_De_Futbol/nuevo.php">Nuevo</a>
 </nav>

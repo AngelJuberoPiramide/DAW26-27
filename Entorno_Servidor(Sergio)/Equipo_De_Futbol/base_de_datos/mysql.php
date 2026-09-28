@@ -1,4 +1,4 @@
-<?
+<?php
 
 //conector mysql
 /*
@@ -9,13 +9,15 @@ if ($conexion->connect_error) {
 }
 */
 
-$username = 'root';
-$password = 'root';
-$host = 'mysql';
+
+$username = 'admin';
+$password = '123456789';
+$host = 'basededatos.cvisiaw68v76.us-east-1.rds.amazonaws.com';
 $port = '3306';
-$dbname = 'futbol';
+$dbname = 'Equipo_Futbol';
 
 $dsn = "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4";
+
 $conector = null;
 
 try {
@@ -24,3 +26,5 @@ try {
     echo 'Connection failed: ' . $e->getMessage();
     die();
 }
+
+?>
