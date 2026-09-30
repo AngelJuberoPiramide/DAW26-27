@@ -49,29 +49,17 @@ include 'entidades/Jugador.php';
         foreach ($results as $row) {
 
             $jugador = new Jugador($row['dorsal'], $row['nombre']);
-
             echo '<li>';
-
             echo '<p>Dorsal: ' . $jugador->dorsal . '</p>';
-
             echo '<p>Nombre: ' . $jugador->nombre . '</p>';
-
             echo '<form action="editar.php" method="GET">';
-
             echo '<input type="hidden" name="id" value="' . $row['id'] . '">';
-
             echo '<button type="submit">Editar</button>';
-
             echo '</form>';
-
             echo '<form action="borrar.php" method="POST">';
-
             echo '<input type="hidden" name="dorsal" value="' . $jugador->dorsal . '">';
-
             echo '<button type="submit">Borrar</button>';
-
             echo '</form>';
-
             echo '</li>';
         }
     }

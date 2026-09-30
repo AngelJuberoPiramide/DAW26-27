@@ -62,7 +62,14 @@ alert(`Dentro de ${numero} años tendrás ${edad + numero} años.`);
 /*5- Pide al usuario su nombre, una afición y si le gusta programar usando confirm().
 Muestra en un párrafo del documento un texto que combine los tres datos usando un único template literal.*/
 
+/*
 let nombre = prompt("Introduce tu nombre:");
 let aficion = prompt("Introduce una afición");
 let programar = confirm("Le gusta programar?");
+*/
 
+/*6- Pide al usuario un string, Muestra en el documento la posición que ocupa la primera “a”*/
+
+let texto = prompt("Introduce el texto");
+let posicion = texto.indexOf("a");
+document.write(`El caracter se encuentra en la posicion ${posicion}`);
