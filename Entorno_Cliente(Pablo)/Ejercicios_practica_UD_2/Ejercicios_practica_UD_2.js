@@ -76,3 +76,47 @@ let posicion = texto.indexOf("a");
 document.write(`El caracter se encuentra en la posicion ${posicion}`);
 */
 
+/*7- Pide al usuario un string con espacios de más al principio o al final.
+Muestra por consola: el string sin esos espacios, el mismo string en mayúsculas y los 3 primeros caracteres.*/
+
+
+/* let String = prompt("Dame una frase o palabra con espacios de mas al final o al principio:");
+String.trim();
+document.write("El resultado de la frase sin espacios es: <br>" + String + " ");
+let StringMayusculas = String.toUpperCase();
+document.write(StringMayusculas + " ");
+let String3Caracteres = StringMayusculas.substring(0,3);
+document.write(String3Caracteres); */
+
+
+/*8- Pide al usuario tres strings, debes sustituir en el primer string la primera ocurrencia del segundo string por el contenido del tercer string.
+Ejemplo:
+string 1 “Hola caracola”
+string 2 “cara”
+string 3 “era”
+resultado a mostrar con un alert “Hola eracola”.*/
+
+
+/* let String1 = prompt("Primer String:");
+let String2 = prompt("Segundo String:");
+let String3 = prompt("Tercer String:");;
+
+String1 = String1.replace(String2, String3);
+
+alert(String1); */
+
+/* 9- Amplía el ejercicio anterior a todas las ocurrencias. */
+
+/* let String1 = prompt("Primer String:");
+let String2 = prompt("Segundo String:");
+let String3 = prompt("Tercer String:");
+
+String1 = String1.replaceAll(String2, String3);
+
+alert(String1); */
+
+/* 10- Pide dos strings al usuario. Debes mostrar el número de veces que el segundo string está incluido en el primero. */
+
+let String1 = prompt("Introduce el primero String: ");
+let String2 = prompt("Introduce el segundo String: ");
+
