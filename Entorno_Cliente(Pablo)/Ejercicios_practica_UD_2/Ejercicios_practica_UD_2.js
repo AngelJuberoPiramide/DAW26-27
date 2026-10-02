@@ -70,6 +70,9 @@ let programar = confirm("Le gusta programar?");
 
 /*6- Pide al usuario un string, Muestra en el documento la posición que ocupa la primera “a”*/
 
+/*
 let texto = prompt("Introduce el texto");
 let posicion = texto.indexOf("a");
 document.write(`El caracter se encuentra en la posicion ${posicion}`);
+*/
+
