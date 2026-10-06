@@ -1,0 +1,15 @@
+KIT DE PARTIDA · PROYECTO HUELLAS (DIW · UD2)
+
+Contenido:
+  paginas/adopta.html    Tabla de animales en adopción (ejercicio 3.2)
+  paginas/contacto.html  Formulario de contacto
+  paginas/nosotros.html  Quiénes somos, cómo adoptar y mapa
+  img/logo.png           Logotipo
+  img/perros/            Fotos de los animales (toby, luna, rocky, mora, nube)
+  css/                   Vacía: aquí irán vuestras hojas de estilo (secciones 3 y 4)
+
+Lo que tenéis que hacer vosotros:
+  index.html (la portada), en la raíz de huellas/ (ejercicio 1.3).
+
+Las páginas del kit no llevan CSS: se lo iréis añadiendo durante la unidad.
+Podéis sustituir las imágenes por otras, respetando los nombres de fichero o actualizando las rutas.
