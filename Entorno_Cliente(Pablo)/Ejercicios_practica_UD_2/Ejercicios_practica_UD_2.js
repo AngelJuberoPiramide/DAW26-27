@@ -117,6 +117,11 @@ alert(String1); */
 
 /* 10- Pide dos strings al usuario. Debes mostrar el número de veces que el segundo string está incluido en el primero. */
 
-let String1 = prompt("Introduce el primero String: ");
+let String1 = prompt("Introduce el primer String: ");
 let String2 = prompt("Introduce el segundo String: ");
 
+let StringSinCoincidencias = String1.replaceAll(String2, "");
+
+let coincidencias = (String1.length - StringSinCoincidencias.length) / String2.length;
+
+document.write(`Hay ${coincidencias} coincidencias.`);

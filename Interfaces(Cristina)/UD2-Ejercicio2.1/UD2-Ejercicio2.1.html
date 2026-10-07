@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UD2-Ejercicio2.1</title>
+</head>
+<body>
+    <nav>
+    #Inicio</a>
+    #Adopta</a>
+</nav>
+    <main id="portada">
+        <h2>Noticias</h2>
+
+        <p>P1: Luna ya tiene hogar</p>
+
+        <p class="nota">P2: Puertas abiertas</p>
+
+        <section>
+            <p class="nota importante">P3: Mantas</p>
+        </section>
+
+        <p>P4: ¡Gracias!</p>
+    </main>
+</body>
+</html>
+
+<!--2. SELECTORES:
+
+Selector p: P1, P2, P3 y P4.
+Selector .nota: P2 y P3.
+Selector main > p: P1, P2 y P4.
+Selector h2 + p: P1.
+Selector h2 ~ p: P1, P2 y P4.
+Selector nav .activo: enlace "Inicio".
+Selector #portada p: P1, P2, P3 y P4.
+Selector .nota.importante: P3.
+-->
+
+<!--3. SELECTORES ESPECIFICOS:
+
+a) Último párrafo (P4):
+main > p:last-child
+
+b) Enlaces del menú que no son el activo:
+nav a:not(.activo)
+
+c) La sección:
+section
+-->

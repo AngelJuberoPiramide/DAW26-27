@@ -1,0 +1,8 @@
+p { color:red; }
+.nota { color:blue; }
+main > p { color:green; }
+h2 + p { color:orange; }
+h2 ~ p { color:brown; }
+nav .activo { color:purple; }
+#portada p { color:teal; }
+.nota.importante { color:pink; }
