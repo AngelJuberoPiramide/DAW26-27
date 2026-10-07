@@ -1,4 +1,4 @@
-/*1- Declara 6 variables a las que asignaremos los siguientes valores. 1357, 135.7, 135e7, 0b1010, 0o1357 y 0x1A57.
+/* 1- Declara 6 variables a las que asignaremos los siguientes valores. 1357, 135.7, 135e7, 0b1010, 0o1357 y 0x1A57.
 Una vez creadas muestra por consola los valores almacenados y el tipo de dato que nos indica el operador typeof.*/
 
 /*
@@ -17,7 +17,7 @@ console.log(numero5, typeof numero5);
 console.log(numero6, typeof numero6);
 */
 
-/*2- Pide al usuario un  número utilizando el método prompt(), guarda ese dato en una variable.
+/* 2- Pide al usuario un  número utilizando el método prompt(), guarda ese dato en una variable.
 OJO guardarlo de manera que sea un tipo  Number no un String. Compruébalo mostrando por consola el tipo de dato guardado  con el operador typeof.*/
 
 /*
@@ -27,7 +27,7 @@ console.log(numero);
 console.log(typeof numero);
 */
 
-/*3- Pide al usuario dos números con prompt() sin convertirlos. Muestra por consola el resultado de sumarlos con el operador +.
+/* 3- Pide al usuario dos números con prompt() sin convertirlos. Muestra por consola el resultado de sumarlos con el operador +.
 A continuación, convierte ambos valores a Number y vuelve a sumarlos, mostrando ahora el resultado correcto.*/
 
 /*
@@ -40,7 +40,7 @@ numero2 = Number(numero2);
 console.log(numero1 + numero2);
 */
 
-/*4- Pide al usuario que te indique su nombre, apellidos ,  edad y un número del 1 al 10.
+/* 4- Pide al usuario que te indique su nombre, apellidos ,  edad y un número del 1 al 10.
 Almacena cada dato en una variable diferente. A continuación muestra la siguiente información.
 A) Por consola una frase que incluya su nombre , apellidos y la edad.
 B) En el documento html incluye con formato h3 la misma información.
@@ -59,7 +59,7 @@ document.write(`<h3>Te llamas ${nombre} ${apellidos} y tienes ${edad} años.</h3
 alert(`Dentro de ${numero} años tendrás ${edad + numero} años.`);
 */
 
-/*5- Pide al usuario su nombre, una afición y si le gusta programar usando confirm().
+/* 5- Pide al usuario su nombre, una afición y si le gusta programar usando confirm().
 Muestra en un párrafo del documento un texto que combine los tres datos usando un único template literal.*/
 
 /*
@@ -68,7 +68,7 @@ let aficion = prompt("Introduce una afición");
 let programar = confirm("Le gusta programar?");
 */
 
-/*6- Pide al usuario un string, Muestra en el documento la posición que ocupa la primera “a”*/
+/* 6- Pide al usuario un string, Muestra en el documento la posición que ocupa la primera “a”*/
 
 /*
 let texto = prompt("Introduce el texto");
@@ -76,20 +76,21 @@ let posicion = texto.indexOf("a");
 document.write(`El caracter se encuentra en la posicion ${posicion}`);
 */
 
-/*7- Pide al usuario un string con espacios de más al principio o al final.
+/* 7- Pide al usuario un string con espacios de más al principio o al final.
 Muestra por consola: el string sin esos espacios, el mismo string en mayúsculas y los 3 primeros caracteres.*/
 
 
-/* let String = prompt("Dame una frase o palabra con espacios de mas al final o al principio:");
+/*
+let String = prompt("Dame una frase o palabra con espacios de mas al final o al principio:");
 String.trim();
 document.write("El resultado de la frase sin espacios es: <br>" + String + " ");
 let StringMayusculas = String.toUpperCase();
 document.write(StringMayusculas + " ");
 let String3Caracteres = StringMayusculas.substring(0,3);
-document.write(String3Caracteres); */
+document.write(String3Caracteres);*/
 
 
-/*8- Pide al usuario tres strings, debes sustituir en el primer string la primera ocurrencia del segundo string por el contenido del tercer string.
+/* 8- Pide al usuario tres strings, debes sustituir en el primer string la primera ocurrencia del segundo string por el contenido del tercer string.
 Ejemplo:
 string 1 “Hola caracola”
 string 2 “cara”
@@ -97,26 +98,31 @@ string 3 “era”
 resultado a mostrar con un alert “Hola eracola”.*/
 
 
-/* let String1 = prompt("Primer String:");
+/*
+let String1 = prompt("Primer String:");
 let String2 = prompt("Segundo String:");
 let String3 = prompt("Tercer String:");;
 
 String1 = String1.replace(String2, String3);
 
-alert(String1); */
+alert(String1);
+*/
 
 /* 9- Amplía el ejercicio anterior a todas las ocurrencias. */
 
-/* let String1 = prompt("Primer String:");
+/*
+let String1 = prompt("Primer String:");
 let String2 = prompt("Segundo String:");
 let String3 = prompt("Tercer String:");
 
 String1 = String1.replaceAll(String2, String3);
 
-alert(String1); */
+alert(String1);
+*/
 
 /* 10- Pide dos strings al usuario. Debes mostrar el número de veces que el segundo string está incluido en el primero. */
 
+/*
 let String1 = prompt("Introduce el primer String: ");
 let String2 = prompt("Introduce el segundo String: ");
 
@@ -125,3 +131,40 @@ let StringSinCoincidencias = String1.replaceAll(String2, "");
 let coincidencias = (String1.length - StringSinCoincidencias.length) / String2.length;
 
 document.write(`Hay ${coincidencias} coincidencias.`);
+*/
+
+/* 11- ¿Cuáles son los resultados de estas expresiones?
+Anótalo en un comentario antes de ejecutarlo y luego compruébalo mostrándolo por consola. */
+
+/*
+console.log("" + 1 + 0);        // "10"
+console.log("" - 1 + 0);        // -1
+console.log(true + false);      // 1
+console.log(6 / "3");           // 2
+console.log("2" * "3");         // 6
+console.log(4 + 5 + "px");      // "9px"
+console.log("$" + 4 + 5);       // "$45"
+console.log("4" - 2);           // 2
+console.log("4px" - 2);         // NaN
+console.log("-9" + 5);          // "-95"
+console.log(-9 + 5);            // -4
+console.log(null + 1);          // 1
+console.log(undefined + 1);     // NaN
+console.log("\t \n" - 2);       // -2
+*/
+
+/* 12- Arregla el código del ejemplo para que el resultado sea 3. */
+
+/*
+let a = prompt("¿Primer número?", 1);
+let b = prompt("¿Segundo número?", 2);
+
+alert(a + b); //12
+*/
+
+/* 13- ¿Cuáles son los valores finales de todas las variables a, b, c y d después del código a continuación? */
+
+
+let a = 1, b = 1;
+let c = ++a; // ?
+let d = b++; // ?
