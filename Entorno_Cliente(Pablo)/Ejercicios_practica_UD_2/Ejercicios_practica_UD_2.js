@@ -159,12 +159,39 @@ console.log("\t \n" - 2);       // -2
 let a = prompt("¿Primer número?", 1);
 let b = prompt("¿Segundo número?", 2);
 
-alert(a + b); //12
+//alert(a + b); //12
+alert(parseInt(a) + parseInt(b)); //3
 */
 
 /* 13- ¿Cuáles son los valores finales de todas las variables a, b, c y d después del código a continuación? */
 
-
+/*
 let a = 1, b = 1;
-let c = ++a; // ?
-let d = b++; // ?
+let c = ++a; // 2
+let d = b++; // 1
+
+console.log(c);
+console.log(d);
+*/
+
+/* 14- ¿Cuál será el resultado de las siguientes expresiones? */
+
+/*
+console.log(5 > 4);                     // true
+console.log("apple" > "pineapple");     // false
+console.log("2" > "12");                // true
+console.log(undefined == null);         // true
+console.log(undefined === null);        // false
+console.log(null == "\n0\n");           // false
+console.log(null === "\n0\n");          // false
+*/
+
+/* 15- Escribe en un comentario el resultado que esperas de cada expresión y el tipo de dato del resultado. Después compruébalo por consola usando typeof. */
+
+
+console.log(typeof("5" + 3));       // 
+console.log(typeof("5" - 3));       // 
+console.log(typeof("5" * "2"));     // 
+console.log(typeof(true + 1));      // 
+console.log(typeof("3" + 4 + 5));   // 
+console.log(typeof(3 + 4 + "5"));   // 
