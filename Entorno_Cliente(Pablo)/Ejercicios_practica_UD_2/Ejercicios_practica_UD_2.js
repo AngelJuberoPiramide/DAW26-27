@@ -188,10 +188,39 @@ console.log(null === "\n0\n");          // false
 
 /* 15- Escribe en un comentario el resultado que esperas de cada expresión y el tipo de dato del resultado. Después compruébalo por consola usando typeof. */
 
+/*
+console.log(typeof("5" + 3));       // String
+console.log(typeof("5" - 3));       // number
+console.log(typeof("5" * "2"));     // number
+console.log(typeof(true + 1));      // number
+console.log(typeof("3" + 4 + 5));   // number
+console.log(typeof(3 + 4 + "5"));   // String
+*/
 
-console.log(typeof("5" + 3));       // 
-console.log(typeof("5" - 3));       // 
-console.log(typeof("5" * "2"));     // 
-console.log(typeof(true + 1));      // 
-console.log(typeof("3" + 4 + 5));   // 
-console.log(typeof(3 + 4 + "5"));   // 
+/* 16- Dado el siguiente código, muestra por consola el resultado de cantidad || 10 y de cantidad ?? 10 para cada una de las variables.
+¿En qué casos dan resultados distintos? Si el valor 0 fuera una cantidad válida, ¿qué operador usarías? Razona la respuesta. */
+
+/*
+let cantidad1;
+let cantidad2 = null;
+let cantidad3 = 0;
+let cantidad4 = "";
+let cantidad5 = 5;
+console.log(cantidad1 || 10);   // 10
+console.log(cantidad2 || 10);   // 10
+console.log(cantidad3 || 10);   // 10
+console.log(cantidad4 || 10);   // 10
+console.log(cantidad5 || 10);   // 5
+
+console.log(cantidad1 ?? 10);   // 10
+console.log(cantidad2 ?? 10);   // 10
+console.log(cantidad3 ?? 10);   // 0
+console.log(cantidad4 ?? 10);   // 
+console.log(cantidad5 ?? 10);   // 5
+*/
+
+/* 17- Crea un programa que pida al usuario un número entero de minutos y muestre cuántas horas y minutos son.
+Por ejemplo, para 135 debe mostrar "2 horas y 15 minutos". Solo puedes usar los operadores aritméticos.
+Antes de programarlo, comprueba por consola cuánto vale 135 / 60. ¿Qué diferencia hay con Java? */
+
+
