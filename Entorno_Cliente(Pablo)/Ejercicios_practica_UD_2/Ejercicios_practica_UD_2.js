@@ -224,3 +224,6 @@ Por ejemplo, para 135 debe mostrar "2 horas y 15 minutos". Solo puedes usar los 
 Antes de programarlo, comprueba por consola cuánto vale 135 / 60. ¿Qué diferencia hay con Java? */
 
 
+let numero = prompt("Dame un numero entero de minutos");
+let horas = 0;
+

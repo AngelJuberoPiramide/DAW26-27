@@ -1,0 +1,39 @@
+.a {
+    width: 200px;
+    padding: 10px 20px;
+    border: 5px solid;
+    margin: 15px;
+}
+.b {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px 20px;
+    border: 5px solid;
+}
+.c {
+    width: 50%;     /* el padre mide 800px */
+    padding: 1rem;      /* la raíz: 16px */
+    border: 2px solid;
+}
+
+/*
+1. Ancho visible:
+
+.a = 250px
+.b = 200px
+.c = 436px
+
+2. Espacio horizontal total de .a incluyendo margin:
+
+280px
+
+3. Área de contenido de .b:
+
+150px
+
+4. Comprobación en DevTools:
+
+Clic derecho → Inspeccionar.
+Selecciona la caja.
+En la pestaña Computed aparece el diagrama del modelo de cajas (content, padding, border y margin), donde podrás verificar estos valores.
+*/

@@ -1,0 +1,20 @@
+/* A */ p { color: blue; }
+        p { color: green; }
+/* B */ #aviso { color: red; }
+        .urgente { color: orange; }
+/* C */ nav a { color: gray; }
+        .enlace { color: purple; }
+/* D */ .btn { color: white !important; }
+        #enviar { color: black; }
+
+/*
+<p>A</p>
+<p id="aviso" class="urgente">B</p>
+<nav><a class="enlace">C</a></nav>
+<button id="enviar" class="btn">D</button>
+*/
+
+/*
+Verde, rojo, morado, blanco.
+
+*/
