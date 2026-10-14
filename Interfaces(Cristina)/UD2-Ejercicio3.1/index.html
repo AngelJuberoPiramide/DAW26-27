@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio · Huellas</title>
+    <meta name="description" content="Protectora de animales Huellas: adopta, acoge o colabora.">
+    <style>
+        /* Base */
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f5f5f5;
+            color:#333;
+        }
+
+        /* Cabecera de la web y menu */
+
+        nav li{
+            display:inline-block;
+            margin-right:1rem;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:#0e5a94;
+        }
+
+        /* Tarjetas */
+
+        .tarjeta{
+            display:inline-block;
+            width:300px;
+            margin:10px;
+
+            background-color:#fff;
+            border:1px solid #e2e5ec;
+            border-radius:12px;
+            padding:1rem;
+            vertical-align:top;
+        }
+
+        .tarjeta-titulo{
+            color:#0e5a94;
+            font-size:1.25rem;
+        }
+
+        .etiqueta{
+            background-color:#e44d26;
+            color:white;
+            font-size:0.75rem;
+            padding:0.125rem 0.5rem;
+            border-radius:999px;
+        }
+
+        /* Botones */
+
+        .btn{
+            display:inline-block;
+            padding:0.5rem 1rem;
+            border-radius:8px;
+            text-decoration:none;
+        }
+
+        .btn-primario{
+            background-color:#0e5a94;
+            color:white;
+        }
+
+        .btn-primario:hover{
+            background-color:#16213e;
+        }
+
+        .btn-primario:focus{
+            outline:3px solid #f4be4f;
+            outline-offset:2px;
+        }
+
+        /* Pie de pagina de la web */
+
+        footer{
+            background-color:#16213e;
+            color:white;
+            padding:1rem;
+        }
+
+        footer a{
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="Huellas, ir al inicio" width="120" height="120">
+        </a>
+        <h1>Huellas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-current="page">Inicio</a></li>
+                <li><a href="paginas/adopta.html">Adopta</a></li>
+                <li><a href="paginas/contacto.html">Contacto</a></li>
+                <li><a href="paginas/nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Quiénes somos</h2>
+            <p>Rescatamos, cuidamos y buscamos hogar a perros y gatos abandonados.</p>
+        </section>
+
+        <section>
+            <h2>Últimos rescates</h2>
+            <article class="tarjeta">
+                <img src="img/perros/toby.jpg" alt="Toby, perro mestizo marrón" width="400" height="300">
+                <h3 class="tarjeta-titulo">Toby</h3>
+                <p><span class="etiqueta">Urgente</span> 2 años · Tamaño mediano</p>
+                <a class="btn btn-primario" href="paginas/adopta.html">Adoptar a Toby</a>
+            </article>
+
+            <article class="tarjeta">
+                <img src="img/perros/luna.jpg" alt="Luna, cachorra blanca con una mancha negra" width="400"
+                    height="300">
+                <h3 class="tarjeta-titulo">Luna</h3>
+                <p><span class="etiqueta"></h3>8 meses · Tamaño pequeño</p>
+                <a class="btn btn-primario" href="paginas/adopta.html">Adoptar a Luna</a>
+            </article>
+            <article class="tarjeta">
+                <img src="img/perros/rocky.jpg" alt="Rocky, perro grande de pelo oscuro" width="400" height="300">
+                <h3 class="tarjeta-titulo">Toby</h3>
+                <p>6 años · Tamaño grande</p>
+                <a class="btn btn-primario" href="paginas/adopta.html">Adoptar a Toby</a>
+            </article>
+
+        </section>
+    </main>
+
+    <aside>
+        <h2>Horario de visitas</h2>
+        <dl>
+            <dt>Martes a viernes</dt>
+            <dd>10:00 – 13:30 y 17:00 – 19:00</dd>
+            <dt>Sábados y domingos</dt>
+            <dd>10:00 – 13:30</dd>
+        </dl>
+    </aside>
+
+    <footer>
+        <p>
+            <a href="mailto:hola@huellas.example">hola@huellas.example</a> ·
+            <a href="tel:+34976000000">976 000 000</a>
+        </p>
+    </footer>
+</body>
+
+</html>
