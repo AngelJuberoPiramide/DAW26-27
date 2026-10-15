@@ -223,7 +223,19 @@ console.log(cantidad5 ?? 10);   // 5
 Por ejemplo, para 135 debe mostrar "2 horas y 15 minutos". Solo puedes usar los operadores aritméticos.
 Antes de programarlo, comprueba por consola cuánto vale 135 / 60. ¿Qué diferencia hay con Java? */
 
-
+/* 
+----------------------SIN TERMINAR----------------------
 let numero = prompt("Dame un numero entero de minutos");
 let horas = 0;
+----------------------SIN TERMINAR----------------------
+*/
+
+
+/* 28- Escribe una función que acepte un número indeterminado de argumentos numéricos y devuelva su suma.
+Si no recibe ningún argumento, debe devolver 0 (compruébalo con una llamada sin argumentos). Escribe la función de las tres formas vistas en clase:
+1. suma1: declaración tradicional.
+2. suma2: función como expresión.
+3. suma3: función flecha.
+ */
+
 
