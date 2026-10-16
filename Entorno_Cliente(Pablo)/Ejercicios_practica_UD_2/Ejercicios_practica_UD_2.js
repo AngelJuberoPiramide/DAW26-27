@@ -231,11 +231,20 @@ let horas = 0;
 */
 
 
-/* 28- Escribe una función que acepte un número indeterminado de argumentos numéricos y devuelva su suma.
-Si no recibe ningún argumento, debe devolver 0 (compruébalo con una llamada sin argumentos). Escribe la función de las tres formas vistas en clase:
-1. suma1: declaración tradicional.
-2. suma2: función como expresión.
-3. suma3: función flecha.
- */
+/* 31- Crea un array de 5 números de dos formas distintas. Investiga qué ocurre al crear un array con el constructor
+pasándole un único número, y cómo crear correctamente un array que contenga solo ese número. Explica la diferencia en un comentario. */
 
 
+let numeros = [1, 2, 3, 4, 5];
+
+numeros.forEach(elemento => {
+    console.log(elemento);
+});
+
+let numeross = Array(5);
+
+console.log(numeross);
+console.log(numeross.length);
+
+let numeroSolo = [5];
+console.log(numeroSolo);
